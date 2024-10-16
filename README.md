@@ -1,4 +1,4 @@
-# 技术指标和参数
+# 电能表术语表
 
 ## 术语
 
@@ -7,10 +7,10 @@
 常见术语 
  </summary>
 
-|   中文   |               英文               | 注释 |
-| :------: | :------------------------------: | :--: |
+|   中文   |               英文               |                    注释                    |
+| :------: | :------------------------------: | :----------------------------------------: |
 |   单相   |           Single-phase           |
-|   三相   |           Three-phases           |
+|   三相   |           Three-phase            |
 |   功率   |              Power               |
 |   电流   |             Current              |
 |   安培   |              Ampere              |
@@ -25,11 +25,13 @@
 | 无功功率 |          Reactive Power          |
 |   误差   |              Error               |
 |   载波   |             Carrier              |
-|  波特率  |            Baud rate             |
-| 脉冲信号 |           Pulse signal           |
+|  波特率  |            Baud Rate             |
+| 脉冲信号 |           Pulse Signal           |
 |  失真度  |            Distortion            |
-|  标准表  | Standard meter / Reference meter |
+|  标准表  | Standard Meter / Reference Meter |
 |   台体   |            Workbench             |
+|   量程   |        Measurement Range         |
+| 调节细度 |       Adjustment Fineness        | Adjustable Accuracy / Adjustable Precision |
 
 </details>
 
@@ -38,59 +40,65 @@
 LY3110系列单相电能表检定装置
 </summary>
 
-|        中文        |                       英文                       | 注释 |
-| :----------------: | :----------------------------------------------: | :--: |
-|       电能表       |                Electricity meter                 |
-|     单相电能表     |          Single-phase electricity meter          |
-|    多功能电能表    |         Multi-function electricity meter         |
-|     智能电能表     |             Smart electricity meter              |
-|       功率源       |                   Power source                   |
-|       标准表       |                  Standard meter                  |
-|     误差计算器     |                 Error calculator                 |
-|    RS485 服务器    |                   RS485 server                   |
-|     精密时基源     |            Precision Time Base Source            |
-|      参比条件      |               Reference conditions               |
-|      基本误差      |                   Basic error                    |
-|     测量重复性     |            Measurement repeatability             |
-|    电压电流量程    |            Voltage and current range             |
-|    输出负载容量    |               Output load capacity               |
-|        相序        |                  Phase sequence                  |
-|    输出电量调节    |             Output power adjustment              |
-|   输出功率稳定度   |              Output power stability              |
-| 输出电压电流失真度 |      Output voltage and current distortion       |
-|      谐波设置      |                Harmonic settings                 |
-|      监视仪表      |              Monitoring instruments              |
-|      电能脉冲      |              Electric energy pulse               |
-|  标准电能脉冲输出  |      Standard electric energy pulse output       |
-|      功率因数      |                   Power factor                   |
-|        相位        |                   Phase angle                    |
-|        频率        |                    Frequency                     |
-|      谐波分析      |                Harmonic analysis                 |
-|       失真度       |                    Distortion                    |
-|      通讯接口      |             Communication interface              |
-|     RS232 接口     |                 RS232 interface                  |
-|     RS485 接口     |                 RS485 interface                  |
-|      电能误差      |              Electric energy error               |
-|      走字试验      |                Meter running test                |
-|     影响量试验     |             Influence quantity test              |
-|     一致性试验     |                 Consistency test                 |
-|    费控功能试验    |            Fee control function test             |
-|      潜动试验      |                    Creep test                    |
-|      起动试验      |                  Start-up test                   |
-|    基本误差试验    |                 Basic error test                 |
-|      常数试验      |                  Constant test                   |
-|     日计时误差     |                Daily timing error                |
-|  通讯协议检查试验  |        Communication protocol check test         |
-|     电能表常数     |            Electricity meter constant            |
-|     电能表校验     |          Electricity meter calibration           |
-|     电能表检定     |          Electricity meter verification          |
-|    电能表挂表架    |             Electricity meter hanger             |
-|  电能表误差显示器  |         Electricity meter error display          |
-|   电能表脉冲信号   |          Electricity meter pulse signal          |
-|     电能表通讯     |         Electricity meter communication          |
-| 电能表检定软件平台 | Electricity meter verification software platform |
-|   电能表检定规程   |    Electricity meter verification regulations    |
-|      线性负载      |                   Linear Load                    |
+|        中文        |                    英文                    |              注释              |
+| :----------------: | :----------------------------------------: | :----------------------------: |
+|     单相电能表     |         Single-Phase Energy Meter          |
+|      检定装置      |            Verification Device             |
+|       功率源       |                Power Source                |
+|    多功能标准表    |       Multi-Function Standard Meter        |
+|     误差计算器     |              Error Calculator              |
+|    RS485 服务器    |                RS485 Server                |
+|       时基源       |              Time Base Source              |
+|       电能表       |                Energy Meter                |
+|     智能电能表     |          Intelligent Energy Meter          |
+|    多费率电能表    |          Multi-Rate Energy Meter           |
+|    预付费电能表    |          Prepayment Energy Meter           |
+|      电压跌落      |                Voltage Dip                 |
+|    电压逐渐变化    |           Gradual Voltage Change           |
+|      电能误差      |                Energy Error                |
+|     日计时误差     |             Daily Timing Error             |
+|      频率影响      |            Frequency Influence             |
+|      电压影响      |             Voltage Influence              |
+|      谐波影响      |             Harmonic Influence             |
+|       逆向序       |              Reverse Sequence              |
+|     电压不平衡     |             Voltage Unbalance              |
+|      输出电量      |                Output Power                |
+|    电压电流量程    |         Voltage and Current Range          |
+|    输出负载容量    |            Output Load Capacity            |
+|        相序        |               Phase Sequence               |
+|    输出电量调节    |          Output Power Adjustment           |
+|   输出功率稳定度   |           Output Power Stability           |
+| 输出电压电流失真度 |   Output Voltage and Current Distortion    |
+|      谐波设置      |              Harmonic Setting              |
+|      监视仪表      |           Monitoring Instrument            |
+|      电能脉冲      |                Energy Pulse                |
+|  标准电能脉冲输出  |        Standard Energy Pulse Output        |
+|      脉冲常数      |               Pulse Constant               |
+|    电压电流档位    |         Voltage and Current Level          |
+|      调节细度      |            Adjustment Fineness             |
+|      相位调节      |              Phase Adjustment              |
+|      频率调节      |            Frequency Adjustment            |
+|   标准偏差估计值   |        Standard Deviation Estimate         |
+|    允许测量误差    |       Permissible Measurement Error        |
+|     电能表常数     |           Energy Meter Constant            |
+|     电能表校验     |         Energy Meter Verification          |
+|     电能表误差     |             Energy Meter Error             |
+|   电能表走字试验   |         Energy Meter Walking Test          |
+|     电能表潜动     |             Energy Meter Creep             |
+|     电能表起动     |           Energy Meter Start-Up            |
+|   电能表基本误差   |          Energy Meter Basic Error          |
+|    电能表影响量    |      Energy Meter Influence Quantity       |
+|   电能表检定规程   | Electricity Meter Verification Regulations |
+|      线性负载      |                Linear Load                 |
+|        谐波        |                  Harmonic                  |
+|        基波        |              Fundamental Wave              |
+|       次谐波       |                Subharmonic                 |
+|      奇次谐波      |                Odd Harmonic                |
+|       方顶波       |                Square Wave                 |
+|       尖顶波       |                 Sharp Wave                 | 或尖峰波可以翻译为 “Peak Wave” |
+|       脉冲波       |                 Pulse Wave                 |
+|      过零点波      |             Zero-Crossing Wave             |
+|      高次谐波      |              Higher Harmonic               |
 
 </details>
 
@@ -159,58 +167,56 @@ LY3310系列三相电能表检定装置
 LY3503系列单三相电能表检定融合台
 </summary>
 
-|        中文        |                      英文                      | 注释 |
-| :----------------: | :--------------------------------------------: | :--: |
-|       电能表       |                Watt-hour meter                 |
-|        检定        |                  verification                  |
-|       融合台       |              integration platform              |
-|        三相        |                  three-phase                   |
-|        单相        |                  single-phase                  |
-|       功率源       |                  power source                  |
-|    多功能标准表    |         multi-function standard meter          |
-|     误差计算器     |                error calculator                |
-|    RS485 服务器    |                  RS485 server                  |
-| 电能表检定软件平台 | watt-hour meter verification software platform |
-|        通信        |                 communication                  |
-|        电压        |                    voltage                     |
-|        电流        |                    current                     |
-|      功率因数      |                  power factor                  |
-|        相位        |                     phase                      |
-|        频率        |                   frequency                    |
-|        谐波        |                    harmonic                    |
-|      输出电量      |                  output power                  |
-|    电压电流量程    |           voltage and current range            |
-|    输出负载容量    |              output load capacity              |
-|        相序        |                 phase sequence                 |
-|    输出电量调节    |            output power adjustment             |
-|   输出功率稳定度   |             output power stability             |
-| 输出电压电流失真度 |     output voltage and current distortion      |
-|   三相电量对称性   |           three-phase power symmetry           |
-|      监视仪表      |             monitoring instrument              |
-|      电能脉冲      |                watt-hour pulse                 |
-|        启动        |                    start-up                    |
-|        潜动        |                     creep                      |
-|      基本误差      |                  basic error                   |
-|      标准偏差      |               standard deviation               |
-|      24h 变差      |               24-hour variation                |
-|      电能误差      |                watt-hour error                 |
-|      无功电能      |                reactive energy                 |
-|      有功电能      |                 active energy                  |
-|      视在功率      |                 apparent power                 |
-|      功率裕量      |                  power margin                  |
-|       软启停       |              soft start and stop               |
-|    输出短路保护    |        output short circuit protection         |
-|    输出开路保护    |         output open circuit protection         |
-|     电能表常数     |            watt-hour meter constant            |
-|     电能表走字     |            watt-hour meter running             |
-|     电能表校验     |          watt-hour meter calibration           |
-|   电能表检定规程   |    watt-hour meter verification regulation     |
-|   电能表技术标准   |       watt-hour meter technical standard       |
-|   电能表误差曲线   |          watt-hour meter error curve           |
-|    电能表误差限    |          watt-hour meter error limit           |
-|  电能表误差一致性  |       watt-hour meter error consistency        |
-|  电能表日计时误差  |       watt-hour meter daily timing error       |
-|    电能表影响量    |       watt-hour meter influence quantity       |
+|        中文        |                         英文                         | 注释 |
+| :----------------: | :--------------------------------------------------: | :--: |
+|       电能表       |                Electric Energy Meter                 |
+|    单三相电能表    |    Single and Three-phase Electric Energy Meters     |
+|     检定融合台     |             Multi-Verification Platform              |
+|    多功能电能表    |        Multi-functional Electric Energy Meter        |
+|   三相智能电能表   |    Three-phase Intelligent Electric Energy Meter     |
+|  三相多功能电能表  |  Three-phase Multi-functional Electric Energy Meter  |
+|   三相载波电能表   |    Three-phase Carrier Wave Electric Energy Meter    |
+|  三相多费率电能表  |     Three-phase Multi-rate Electric Energy Meter     |
+|    电子式电能表    |        Electronic Type Electric Energy Meter         |
+|     无功电能表     |         Reactive Power Electric Energy Meter         |
+|     三相四线制     |             Three-phase Four-wire System             |
+|     三相三线制     |            Three-phase Three-wire System             |
+|      基本误差      |                     Basic Error                      |
+|     测量重复性     |              Measurement Repeatability               |
+|    电压电流量程    |              Voltage and Current Range               |
+|    输出负载容量    |                 Output Load Capacity                 |
+|        相序        |                    Phase Sequence                    |
+|    输出电量调节    |               Output Power Adjustment                |
+|   输出功率稳定度   |                Output Power Stability                |
+| 输出电压电流失真度 |        Output Voltage and Current Distortion         |
+|   三相电量对称性   |              Three-phase Power Symmetry              |
+|      谐波设置      |                   Harmonic Setting                   |
+|      监视仪表      |                Monitoring Instrument                 |
+|      电能脉冲      |                Electric Energy Pulse                 |
+|  标准电能脉冲输出  |        Standard Electric Energy Pulse Output         |
+|       功率源       |                     Power Source                     |
+|       标准表       |                    Standard Meter                    |
+|     误差计算器     |                   Error Calculator                   |
+|    RS485 服务器    |                     RS485 Server                     |
+| 电能表检定软件平台 | Electric Energy Meter Verification Software Platform |
+|      参比条件      |                 Reference Conditions                 |
+|      功率因数      |                     Power Factor                     |
+|       相位角       |                     Phase Angle                      |
+|        频率        |                      Frequency                       |
+|      有功功率      |                     Active Power                     |
+|      无功功率      |                    Reactive Power                    |
+|      视在功率      |                    Apparent Power                    |
+|      电能误差      |                Electric Energy Error                 |
+|     日计时误差     |                  Daily Timing Error                  |
+|      走字试验      |                     Walking Test                     |
+|     影响量试验     |               Influence Quantity Test                |
+|      谐波影响      |                  Harmonic Influence                  |
+|       逆相序       |                Reverse Phase Sequence                |
+|     电压不平衡     |                  Voltage Unbalance                   |
+|     误差一致性     |                  Error Consistency                   |
+|      电压跌落      |                     Voltage Dip                      |
+|    电压逐渐变化    |                Voltage Gradual Change                |
+|     电能表常数     |            Electric Energy Meter Constant            |
 
 </details>
 
@@ -386,8 +392,11 @@ LY3519 HPLC通讯单元检测装置
 
 ## 参考资料
 
-[**AI 翻译软件**](https://www.quark.cn/?entry=sem_pinzhuanbdsempckk)
-[**电表专业英语(中英文).doc**](<./src/电表专业英语(中英文).doc>)
+- [**AI 翻译软件**](https://www.quark.cn/?entry=sem_pinzhuanbdsempckk)
+
+- [**电表专业英语(中英文).doc**](<./src/电表专业英语(中英文).doc>)
+
+- [**各国电压一览表.doc**](./src/各国电压一览表.doc)
 
 <details>
 <summary>
