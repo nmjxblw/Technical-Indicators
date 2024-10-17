@@ -4,34 +4,45 @@
 
  <details>
 <summary>
-常见术语 
+常见术语
  </summary>
 
-|   中文   |               英文               |                    注释                    |
-| :------: | :------------------------------: | :----------------------------------------: |
-|   单相   |           Single-phase           |
-|   三相   |           Three-phase            |
-|   功率   |              Power               |
-|   电流   |             Current              |
-|   安培   |              Ampere              |
-|   电压   |             Voltage              |
-|   伏特   |               Volt               |
-| 功率因数 |           Power Factor           |
-|   容性   |            Capacitive            |
-|   感性   |            Inductive             |
-|   负载   |               Load               |
-| 视在功率 |          Apparent Power          |
-| 有功功率 |           Active Power           |
-| 无功功率 |          Reactive Power          |
-|   误差   |              Error               |
-|   载波   |             Carrier              |
-|  波特率  |            Baud Rate             |
-| 脉冲信号 |           Pulse Signal           |
-|  失真度  |            Distortion            |
-|  标准表  | Standard Meter / Reference Meter |
-|   台体   |            Workbench             |
-|   量程   |        Measurement Range         |
-| 调节细度 |       Adjustment Fineness        | Adjustable Accuracy / Adjustable Precision |
+|     中文      |          英文           |                    注释                    |
+| :-----------: | :---------------------: | :----------------------------------------: |
+|     单相      |      Single-phase       |
+|     三相      |       Three-phase       |
+|     功率      |          Power          |
+|    千瓦时     |           kWh           |               Kilowatt Hours               |
+|    交流电     |           AC            |            Alternating Current             |
+|    直流电     |           DC            |               Direct Current               |
+|     频率      |        Frequency        |
+|     电流      |         Current         |
+|     安培      |         Ampere          |
+|     电压      |         Voltage         |
+|     伏特      |          Volt           |
+|   功率因数    |      Power Factor       |
+|   起动试验    |      Starting Test      |
+|   潜动试验    |       Creep Test        |
+|     容性      |       Capacitive        |
+|     感性      |        Inductive        |
+|     负载      |          Load           |
+|   视在功率    |     Apparent Power      |
+|   有功功率    |      Active Power       |
+|   无功功率    |     Reactive Power      |
+|     误差      |          Error          |
+|     载波      |         Carrier         |
+|    波特率     |        Baud Rate        |
+|   脉冲信号    |      Pulse Signal       |
+|    失真度     |       Distortion        |
+|    标准表     |     Standard Meter      |              Reference Meter               |
+|     通道      |         Channel         |
+|     台体      |        Workbench        |
+|     量程      |    Measurement Range    |
+|   调节细度    |   Adjustment Fineness   | Adjustable Accuracy / Adjustable Precision |
+| 插槽/表位插槽 |          Slot           |                   Socket                   |
+|    正相序     | Positive-phase Sequence |
+|    负相序     | Negative-phase Sequence |
+|     断电      |         Outage          |
 
 </details>
 
@@ -49,7 +60,6 @@ LY3110系列单相电能表检定装置
 |     误差计算器     |              Error Calculator              |
 |    RS485 服务器    |                RS485 Server                |
 |       时基源       |              Time Base Source              |
-|       电能表       |                Energy Meter                |
 |     智能电能表     |          Intelligent Energy Meter          |
 |    多费率电能表    |          Multi-Rate Energy Meter           |
 |    预付费电能表    |          Prepayment Energy Meter           |
@@ -85,7 +95,7 @@ LY3110系列单相电能表检定装置
 |     电能表误差     |             Energy Meter Error             |
 |   电能表走字试验   |         Energy Meter Walking Test          |
 |     电能表潜动     |             Energy Meter Creep             |
-|     电能表起动     |           Energy Meter Start-Up            |
+|     电能表起动     |           Energy Meter Starting            |
 |   电能表基本误差   |          Energy Meter Basic Error          |
 |    电能表影响量    |      Energy Meter Influence Quantity       |
 |   电能表检定规程   | Electricity Meter Verification Regulations |
@@ -129,8 +139,6 @@ LY3310系列三相电能表检定装置
 |    测量重复性    |       Measurement repeatability       |
 |     走字试验     |               Walk test               |
 |    影响量试验    |        Influence quantity test        |
-|     潜动试验     |              Creep test               |
-|     起动试验     |             Start-up test             |
 |     常数试验     |             Constant test             |
 |    一致性试验    |           Consistency test            |
 |   费控功能试验   |      Cost control function test       |
@@ -157,7 +165,7 @@ LY3310系列三相电能表检定装置
 |    电能表常数    |         Energy meter constant         |
 |    电能表校验    |       Energy meter calibration        |
 |    电能表误差    |          Energy meter error           |
-|    电能表走字    |           Energy meter walk           |
+|    电能表走字    |         Energy meter walking          |
 |    电能表通信    |      Energy meter communication       |
 
 </details>
@@ -202,10 +210,6 @@ LY3503系列单三相电能表检定融合台
 |      参比条件      |                 Reference Conditions                 |
 |      功率因数      |                     Power Factor                     |
 |       相位角       |                     Phase Angle                      |
-|        频率        |                      Frequency                       |
-|      有功功率      |                     Active Power                     |
-|      无功功率      |                    Reactive Power                    |
-|      视在功率      |                    Apparent Power                    |
 |      电能误差      |                Electric Energy Error                 |
 |     日计时误差     |                  Daily Timing Error                  |
 |      走字试验      |                     Walking Test                     |
@@ -214,7 +218,8 @@ LY3503系列单三相电能表检定融合台
 |       逆相序       |                Reverse Phase Sequence                |
 |     电压不平衡     |                  Voltage Unbalance                   |
 |     误差一致性     |                  Error Consistency                   |
-|      电压跌落      |                     Voltage Dip                      |
+|      电压跌落      |                     Voltage Drop                     |
+|      电压骤升      |                    Voltage Surge                     |
 |    电压逐渐变化    |                Voltage Gradual Change                |
 |     电能表常数     |            Electric Energy Meter Constant            |
 
@@ -347,6 +352,7 @@ LY3519 HPLC通讯单元检测装置
 |     外观结构测试      |         Appearance and Structure Test          |
 |     通信性能测试      |         Communication Performance Test         |
 |       功耗测试        |             Power Consumption Test             |
+|       衰减幅度        |             Attenuation Amplitude              |
 |    电源适应性测试     |         Power Supply Adaptability Test         |
 |     芯片 ID 检测      |               Chip ID Detection                |
 |     HPLC 信道检测     |             HPLC Channel Detection             |
