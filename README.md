@@ -39,7 +39,7 @@
 |     台体      |        Workbench        |
 |     量程      |    Measurement Range    |
 |   调节细度    |   Adjustment Fineness   | Adjustable Accuracy / Adjustable Precision |
-| 插槽/表位插槽 |          Slot           |                   Socket                   |
+| 插槽/表位插槽 |         Socket          |                    Slot                    |
 |    正相序     | Positive-phase Sequence |
 |    负相序     | Negative-phase Sequence |
 |     断电      |         Outage          |
@@ -234,7 +234,7 @@ LY3510用电采集终端综合测试装置
 |          负控终端          |                Negative Control Terminal                |
 |        配变计量终端        |       Distribution Transformer Metering Terminal        |
 |           集中器           |                      Concentrator                       |
-|           采集器           |                        Collector                        |
+|           采集器           |                       Acquisition                       |
 |        自动接线功能        |                Automatic Wiring Function                |
 |        载波功能测试        |               Carrier Wave Function Test                |
 |        电源性能试验        |              Power Supply Performance Test              |
