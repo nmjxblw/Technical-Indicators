@@ -43,6 +43,8 @@
 |    正相序     | Positive-phase Sequence |
 |    负相序     | Negative-phase Sequence |
 |     断电      |         Outage          |
+|   电压跌落    |      Voltage Drop       |
+|  误差计算器   |    Error Calculator     |
 
 </details>
 
@@ -57,13 +59,11 @@ LY3110系列单相电能表检定装置
 |      检定装置      |            Verification Device             |
 |       功率源       |                Power Source                |
 |    多功能标准表    |       Multi-Function Standard Meter        |
-|     误差计算器     |              Error Calculator              |
 |    RS485 服务器    |                RS485 Server                |
 |       时基源       |              Time Base Source              |
 |     智能电能表     |          Intelligent Energy Meter          |
 |    多费率电能表    |          Multi-Rate Energy Meter           |
 |    预付费电能表    |          Prepayment Energy Meter           |
-|      电压跌落      |                Voltage Dip                 |
 |    电压逐渐变化    |           Gradual Voltage Change           |
 |      电能误差      |                Energy Error                |
 |     日计时误差     |             Daily Timing Error             |
@@ -123,7 +123,6 @@ LY3310系列三相电能表检定装置
 |  电能表检定装置  |   Energy meter verification device    |
 |      功率源      |             Power source              |
 |      标准表      |            Standard meter             |
-|    误差计算器    |           Error calculator            |
 |   RS485 服务器   |             RS485 server              |
 |    精密时基源    |      Precision time base source       |
 |     电能脉冲     |         Electric energy pulse         |
@@ -150,7 +149,6 @@ LY3310系列三相电能表检定装置
 |      逆向序      |           Reverse sequence            |
 |    电压不平衡    |           Voltage unbalance           |
 |    误差一致性    |           Error consistency           |
-|     电压跌落     |              Voltage dip              |
 |   电压逐渐变化   |        Voltage gradual change         |
 |     电能误差     |         Electric energy error         |
 |     无功电能     |            Reactive energy            |
@@ -204,7 +202,6 @@ LY3503系列单三相电能表检定融合台
 |  标准电能脉冲输出  |        Standard Electric Energy Pulse Output         |
 |       功率源       |                     Power Source                     |
 |       标准表       |                    Standard Meter                    |
-|     误差计算器     |                   Error Calculator                   |
 |    RS485 服务器    |                     RS485 Server                     |
 | 电能表检定软件平台 | Electric Energy Meter Verification Software Platform |
 |      参比条件      |                 Reference Conditions                 |
@@ -218,7 +215,6 @@ LY3503系列单三相电能表检定融合台
 |       逆相序       |                Reverse Phase Sequence                |
 |     电压不平衡     |                  Voltage Unbalance                   |
 |     误差一致性     |                  Error Consistency                   |
-|      电压跌落      |                     Voltage Drop                     |
 |      电压骤升      |                    Voltage Surge                     |
 |    电压逐渐变化    |                Voltage Gradual Change                |
 |     电能表常数     |            Electric Energy Meter Constant            |
@@ -340,8 +336,8 @@ LY3510用电采集终端综合测试装置
 LY3519 HPLC通讯单元检测装置
 </summary>
 
-|         中文          |                      英文                      | 注释 |
-| :-------------------: | :--------------------------------------------: | :--: |
+|         中文          |                      英文                      |  注释   |
+| :-------------------: | :--------------------------------------------: | :-----: |
 | HPLC 通讯单元检测装置 |     HPLC Communication Unit Testing Device     |
 |       单相模块        |              Single-phase Module               |
 |       三相模块        |               Three-phase Module               |
@@ -378,7 +374,7 @@ LY3519 HPLC通讯单元检测装置
 |   直流电压供电范围    |            DC Voltage Supply Range             |
 |  直流功耗测试准确度   |       DC Power Consumption Test Accuracy       |
 |     载波衰减幅度      |         Carrier Attenuation Amplitude          |
-|     一/二维码扫描     |       One/two-dimensional Code Scanning        |
+|       一/二维码       |            One/two-dimensional Code            | QR Code |
 |      条码扫描枪       |                Barcode Scanner                 |
 |       资产信息        |               Asset Information                |
 |       抄控设备        |              Copy Control Device               |
