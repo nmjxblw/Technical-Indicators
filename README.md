@@ -100,6 +100,7 @@ LY3110系列单相电能表检定装置
 |    电能表影响量    |      Energy Meter Influence Quantity       |
 |   电能表检定规程   | Electricity Meter Verification Regulations |
 |      线性负载      |                Linear Load                 |
+|      阻性负载      |               Resistive Load               |
 |        谐波        |                  Harmonic                  |
 |        基波        |              Fundamental Wave              |
 |       次谐波       |                Subharmonic                 |
@@ -136,7 +137,7 @@ LY3310系列三相电能表检定装置
 |     监视仪表     |        Monitoring instruments         |
 |     基本误差     |              Basic error              |
 |    测量重复性    |       Measurement repeatability       |
-|     走字试验     |               Walk test               |
+|     走字试验     |             Walking test              |
 |    影响量试验    |        Influence quantity test        |
 |     常数试验     |             Constant test             |
 |    一致性试验    |           Consistency test            |
